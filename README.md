@@ -26,7 +26,6 @@ def job(j, i1, i2, i3, n, f1, f2, f3, jt):
               " END | This job took " + str(after - before) + " to be completed!")
         totalTime = totalTime + (after - before)
         time.sleep(f4)
-
     print("This series of scheduled Job " + str(jt) +
           " was completed in a total of " + str(totalTime) + "s. Excluding scheduling time.")
 
